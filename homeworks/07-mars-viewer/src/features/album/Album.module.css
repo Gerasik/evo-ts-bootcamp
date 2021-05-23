@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #8cf9f4, transparent);
+  padding: 10px;
+}
+.button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cacaca;
+  cursor: pointer;
+}
+.button:first-of-type {
+  margin-right: 10px;
+}
+.button_active {
+  text-decoration: underline;
+}
+.images {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.image {
+  width: 21%;
+  position: relative;
+}
+.image_item {
+  width: 100%;
+}
+
+.favourite_button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
